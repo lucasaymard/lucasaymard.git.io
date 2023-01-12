@@ -1,0 +1,466 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    text-align: right;
+    flex-direction: row;
+    margin-top: -4% ;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    margin-right: 50%;
+    margin-top: 5%;
+}
+
+.apropos {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.apropos:hover{
+    text-decoration: underline;
+}
+
+.competences {
+    text-decoration: none;
+    margin-left: 10%;
+    font-size: 20px;
+    color: black;
+}
+
+.competences:hover{
+    text-decoration: underline;
+}
+
+.projets {
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    color: black;
+}
+
+.projets:hover{
+    text-decoration: underline;
+}
+
+.cv {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.cv:hover{
+    text-decoration: underline;
+}
+
+.titre {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.separateurcomp {
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.texte {
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+
+.presentation {
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.nomprenom {
+    font-size: 45px;
+    margin-left: 10%;
+    margin-top: 13%;
+}
+
+.logots {
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    padding: 10px;
+    border: 1px;
+    float: left;
+    border-radius: 10px;
+    margin-left: 7%;
+}
+
+
+.logoreact {
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    padding: 15px;
+    border: 1px;
+    float: left;
+    margin-left: 5%;
+}
+
+.logocss {
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    padding: 10px;
+    border: 1px;
+    float: left;
+}
+
+.logosql {
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    padding: 10px;
+    border: 1px;
+    float: left;
+    margin-left: 5%;
+
+}
+
+
+
+.footer-separator {
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.mail {
+    text-decoration: none;
+    color: white;
+}
+
+
+.cardhtml {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+  }
+  
+  .cardhtml:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    text-align: center;
+  }
+
+.cardcss {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 23%;
+    margin-top: -19.5%;
+
+  }
+  
+  .cardcss:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+
+.logocss {
+    margin-left: 13%;
+}
+
+.cardts {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 43%;
+    padding-bottom: 10px;
+    margin-top: -20%;
+
+  }
+  
+  .cardts:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+.cardreact {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 63%;
+    margin-top: -20%;
+
+  }
+  
+  .cardreact:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.cardsql {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 83%;
+    margin-top: -20%;
+  }
+  
+  .cardsql:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+  footer {
+    color: black;
+    margin-top: 20% ;
+  }
+
+.envelope {
+    width: 3%;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.tel {
+    width: 3%;
+    text-decoration: none;
+    color: black;
+    margin-left: 22%;
+}
+
+.logogithub {
+    width: 3%;
+    text-decoration: none;
+    margin-left: 22%;
+}
+
+.logolinkedin {
+    width: 3%;
+    text-decoration: none;
+    margin-left: 25%;
+}
+
+.titrelanguage {
+    position: absolute;
+    font-size: 25px;
+    margin-left: 10%;
+
+}
+
+.photo {
+    float: right;
+    margin-top: -40%;
+    margin-right: 10%;
+    border-radius: 100%;
+}
+
+.cvbouton {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.cvbouton:hover{
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
+.APROPOS {
+    margin-top: 15%;
+
+}
+
+
+
+.titrepropos {
+    font-size: 45px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.titrehistoire {
+    font-size: 25px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+}
+
+.monhistoire {
+    margin-left: 10%;
+    width: 40%;
+    margin-bottom: 7%;
+    padding: 1%;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.monhistoire:hover{
+    border: 1px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.titreexperience {
+    font-size: 25px ;
+    margin-left: 85%;
+    margin-bottom: 5%;
+}
+
+.experience {
+    margin-left: 55%;
+    width: 40%;
+    margin-bottom: 7%;
+    padding: 1%;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.experience:hover {
+    border: 1px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.titreeducation {
+    font-size: 25px ;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.Descriptioneducation {
+    margin-left: 10%;
+    width: 40%;
+    margin-bottom: 10%;
+    padding: 1%;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.Descriptioneducation:hover{
+    border: 1px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.titrecompetence {
+    font-size: 45px;
+    margin-left: 10%;
+}
+
+.separateur {
+    border-top: 1px solid black;
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.titreprojets {
+    margin-top: 20%;
+    font-size: 45px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.devjunior {
+    margin-left: 10%;
+}
+
+.cardcodecamp {
+    margin-left: 10%;
+    border: 1px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+    width: 20%;
+    height: 50%;
+}
+
+.cardecommerce {
+    margin-left: 10%;
+    border: 1px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    margin-left: 70%;
+    margin-top: -21.9%;
+    padding-bottom: 30px;
+
+}
+.cardhyrule {
+    margin-left: 10%;
+    border: 1px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: -22.2%;
+}
+
+.cardcodecamp:hover{
+    box-shadow: 0 8px 40px 0 rgba(0,0,0,0.2);
+}
+
+.cardhyrule:hover{
+    box-shadow: 0 8px 40px 0 rgba(0,0,0,0.2);
+}
+
+.cardecommerce:hover{
+    box-shadow: 0 8px 40px 0 rgba(0,0,0,0.2);
+}
+
+.screencodecamp {
+    width: 100%;
+}
+
+.screenhyrule {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.screenecommerce {
+    width: 100%;
+}
