@@ -408,7 +408,6 @@ footer a {
 
 .cardcodecamp {
     margin-left: 10%;
-    border: 1px solid black;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 10px;
     padding: 10px;
@@ -419,7 +418,6 @@ footer a {
 
 .cardecommerce {
     margin-left: 10%;
-    border: 1px solid black;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 10px;
     padding: 10px;
@@ -431,7 +429,6 @@ footer a {
 }
 .cardhyrule {
     margin-left: 10%;
-    border: 1px solid black;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 10px;
     padding: 10px;
@@ -464,3 +461,221 @@ footer a {
 .screenecommerce {
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .nomprenom {
+        margin-left: 20%;
+    }
+    .photo {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .titrepropos{
+        text-align: center;
+    }
+
+    .titrehistoire{
+        text-align: center;
+    }
+
+    .monhistoire{
+        width: 90%;
+    }
+
+    .titreexperience{
+        float: right;
+        margin-right: 30%;
+    }
+
+    .experience{
+        width: 90%; 
+        float: right;
+    }
+
+    .titreeducation {
+        text-align: center;
+    }
+
+    .Descriptioneducation {
+        width: 90%;
+    }
+
+    .titrecompetence{
+        text-align: center;
+    }
+
+    .titrelanguage{
+        margin-left: 25%;
+    }
+
+    .cardhtml{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20%;
+    }
+
+    .cardcss{
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+
+    .cardts {
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+
+    .cardreact {
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+
+    .cardsql {
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+
+    .titreprojets{
+        text-align: center;
+    }
+
+    .cardcodecamp {
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .cardecommerce {
+        margin-top: 20%;
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .cardhyrule {
+        margin-top: 20%;
+        margin-left: 25%;
+        width: 50%;
+    }
+  }
+
+
+  @media only screen and (min-width: 600px) and (max-width: 800px){
+    .photo {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .titrepropos{
+        text-align: center;
+    }
+
+    .titrehistoire{
+        text-align: center;
+    }
+
+    .monhistoire{
+        width: 90%;
+    }
+
+    .titreexperience{
+        float: right;
+        margin-right: 30%;
+    }
+
+    .experience{
+        width: 90%; 
+        float: right;
+    }
+
+    .titreeducation {
+        text-align: center;
+    }
+
+    .Descriptioneducation {
+        width: 90%;
+        float: right;
+    }
+
+    .titrecompetence{
+        text-align: center;
+    }
+
+    .titrelanguage{
+        margin-left: 25%;
+    }
+
+    .cardhtml{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20%;
+    }
+
+    .cardcss{
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+
+    .cardts {
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+
+    .cardreact {
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+
+    .cardsql {
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+    
+    .titreprojets{
+        text-align: center;
+    }
+
+    .cardcodecamp {
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .cardecommerce {
+        margin-top: 20%;
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .cardhyrule {
+        margin-top: 20%;
+        margin-left: 25%;
+        width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 1250px){
+    .photo {
+        display: none;
+    }
+  }
